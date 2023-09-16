@@ -1,10 +1,12 @@
-﻿using System;
+﻿using billOfLading.pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -23,6 +25,27 @@ namespace billOfLading
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void MainFrame_OnNavigate(object sender, NavigationEventArgs e)
+        {
+            if (!(e.Content is Page page)) return;
+            this.Title = $"LESSON - {page.Title}";
+
+            if (page is AuthPage)
+            {
+                ButtonBack.Visibility = Visibility.Hidden;
+
+            }
+            else
+            {
+                ButtonBack.Visibility = Visibility.Visible;
+            }
+        }
+
+        private void ButtonBack_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

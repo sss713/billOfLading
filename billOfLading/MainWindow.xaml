@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:billOfLading"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" MinHeight="450" MinWidth="800" Height="450" Width="800">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="42"/>
+            <RowDefinition/>
+            <RowDefinition Height="42"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="#F9F8FF" Grid.Row="2" StrokeThickness="0"/>
+        <Button x:Name="ButtonBack" Content="Назад" HorizontalAlignment="Left" Margin="10,10,0,10" VerticalAlignment="Center" Width="75" Click="ButtonBack_Click"/>
+        <Frame x:Name="MainFrame" Source="pages\AuthPage.xaml" Grid.Row="1" Navigated="MainFrame_OnNavigate"/>
     </Grid>
 </Window>

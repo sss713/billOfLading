@@ -1,5 +1,5 @@
 ﻿billOfLading
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Code\Projects\billOfLading\billOfLading\App.xaml
 3-1309008298
 1-1280502130
-6804727596
+4408824796
 194101785492
 MainWindow.xaml;pages\AuthPage.xaml;resources\DictionaryDefault.xaml;
 
-True
+False
 
