@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\Projects\\billOfLading\\billOfLading\\billOfLading.csproj",
+      "projectUniqueName": "C:\\Code\\С#\\billOfLading\\billOfLading\\billOfLading.csproj",
       "projectName": "billOfLading",
-      "projectPath": "C:\\Code\\Projects\\billOfLading\\billOfLading\\billOfLading.csproj",
+      "projectPath": "C:\\Code\\С#\\billOfLading\\billOfLading\\billOfLading.csproj",
       "packagesPath": "C:\\Users\\M\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\Projects\\billOfLading\\billOfLading\\obj\\",
+      "outputPath": "C:\\Code\\С#\\billOfLading\\billOfLading\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

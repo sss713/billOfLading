@@ -16,18 +16,13 @@ using System.Windows.Shapes;
 namespace billOfLading.pages
 {
     /// <summary>
-    /// Логика взаимодействия для AuthPage.xaml
+    /// Логика взаимодействия для RegPage.xaml
     /// </summary>
-    public partial class AuthPage : Page
+    public partial class RegPage : Page
     {
-        public AuthPage()
+        public RegPage()
         {
             InitializeComponent();
-        }
-
-        private void SignUpButton_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService?.Navigate(new RegPage());
         }
     }
 }

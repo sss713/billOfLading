@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Code\Projects\billOfLading\billOfLading\obj\Debug\net6.0-windows\
+C:\Code\С#\billOfLading\billOfLading\obj\Debug\net6.0-windows\
 billOfLading
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Code\Projects\billOfLading\billOfLading\App.xaml
-3-1309008298
+C:\Code\С#\billOfLading\billOfLading\App.xaml
+4-1288748456
 1-1280502130
-4408824796
-194101785492
-MainWindow.xaml;pages\AuthPage.xaml;resources\DictionaryDefault.xaml;
+5996959167
+1941709816142
+MainWindow.xaml;pages\AuthPage.xaml;pages\RegPage.xaml;resources\DictionaryDefault.xaml;
 
 False
 
