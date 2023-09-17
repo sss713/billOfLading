@@ -24,5 +24,29 @@ namespace billOfLading.pages
         {
             InitializeComponent();
         }
+
+        private void regPassBox_PasswordChanged(object sender, RoutedEventArgs e)//обработчик passwordBox
+        {
+            PasswordBox passwordBox = (PasswordBox)sender;
+            string password = passwordBox.Password;
+
+            if (password.Length < 8)
+            {
+                TextBoxError.Foreground = Brushes.Red;
+                TextBoxError.Text = "Пароль слишком короткий!";
+            }
+            else
+            {
+                TextBoxError.Text = "";
+
+            }
+
+        }
+
+        private void SignUpButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
+
 }

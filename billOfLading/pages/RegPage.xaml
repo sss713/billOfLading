@@ -9,6 +9,28 @@
       Title="RegPage">
 
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="170"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="225"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Логин" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Height="25"/>
+        <TextBox Grid.Column="2" Height="25" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Label Content="Пароль" Grid.Column="1" Margin="0,30,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25"/>
+        <PasswordBox Grid.Column="2" Margin="0,30,0,0" Height="25" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Content="Пароль" Grid.Column="1" Margin="0,30,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25"/>
+        <PasswordBox x:Name="RegPssBox" PasswordChanged="regPassBox_PasswordChanged" Grid.Column="2" Margin="0,30,0,0" Height="25" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Content="Пароль" Grid.Column="1" Margin="0,60,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25"/>
+        <PasswordBox x:Name="RegConfPassBox" Grid.Column="2" Margin="0,60,0,0" Height="25" Grid.Row="1" VerticalAlignment="Top"/>
+        <Button Content="Регистрация" x:Name="SignUpButton" Grid.Column="2" Margin="0,90,0,0" Height="20" Grid.Row="1" VerticalAlignment="Top" Click="SignUpButton_Click"/>
+        <TextBox x:Name="TextBoxError" Text="" Grid.Column="2" Margin="0,120,0,0" Grid.Row="1" TextWrapping="Wrap" IsReadOnly="True" BorderThickness="0" VerticalAlignment="Top"/>
+
     </Grid>
 </Page>
